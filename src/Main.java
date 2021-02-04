@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         //Enter code here
@@ -6,5 +8,11 @@ public class Main {
         //muthafucka
 
         //Carsten just dont wanna go on git
+
+        ArrayList<String> names = new ArrayList<>();
+        names.add("peter");
+
+        ArraylistTest arraylistTest = new ArraylistTest();
+        arraylistTest.doesArraylistContainString(names,"peter");
     }
 }
