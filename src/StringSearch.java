@@ -1,7 +1,9 @@
+import java.util.Arrays;
+
 public class StringSearch {
 
     public int stringSearchInStringArray(String[] list, String str){
 
-        return -1;
+        return Arrays.asList(list).indexOf(str);
     }
 }
