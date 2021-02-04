@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * @author Julius Panduro
+ */
+
 public class ArraylistTest {
 
     public boolean doesArraylistContainString(ArrayList<String> list, String text) {
