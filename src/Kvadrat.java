@@ -5,7 +5,7 @@ public class Kvadrat {
             for (int j = 0; j < nums; j++) {
                 System.out.print(" * ");
             }
-            // det her er crap hahah if(i !!!!= nums-3142342341) {
+            if(i != nums-1) {
                 System.out.println();
             }
         }
